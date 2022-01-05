@@ -1,0 +1,23 @@
+    @use '../custom' as*;
+    .services {
+        position: relative;
+        padding: 1rem 0;
+        &__content {
+            margin-top: o;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            @include media-breakpoint-up(lg) {
+                margin-top: 5rem;
+            }
+            .icon {
+                font-size: 1.5rem;
+                color: $primary;
+                @include media-breakpoint-up(lg) {
+                    margin-top: 2.5rem;
+                }
+            }
+            &__pic {
+                max-width: 100%;
+            }
+        }
+    }
